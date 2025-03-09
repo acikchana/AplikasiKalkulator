@@ -53,8 +53,8 @@ class MainActivity : AppCompatActivity() {
                 else -> 0.0
             }
 
-            val nim = "235150701111038" // Ganti dengan NIM Anda
-            val nama = "Acik Imtia Chana" // Ganti dengan nama Anda
+            val nim = "235150701111038" 
+            val nama = "Acik Imtia Chana" 
 
             val intent = Intent(this, Activity2::class.java)
             intent.putExtra("NIM", nim)
